@@ -2,9 +2,7 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
 }
-body {
-  margin: 0;
-}
+
 main {
   display: block;
 }
@@ -67,36 +65,6 @@ textarea {
   font-size: 100%;
   line-height: 1.15;
   margin: 0;
-}
-button,
-input {
-  overflow: visible;
-}
-button,
-select {
-  text-transform: none;
-}
-button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
-  -webkit-appearance: button;
-}
-button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
-  border-style: none;
-  padding: 0;
-}
-button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText;
-}
-fieldset {
-  padding: 0.35em 0.75em 0.625em;
 }
 legend {
   box-sizing: border-box;
@@ -246,7 +214,6 @@ header ul li {
   line-height: 40px;
   list-style: disc;
   margin-left: 20px;
-  padding: 0;
 }
 header {
   margin-top: 20px;
@@ -350,4 +317,9 @@ header img {
 .footer_redes ul li a {
   display: block;
   padding: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
